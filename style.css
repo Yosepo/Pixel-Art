@@ -3,16 +3,19 @@ body {
 }
 
 #contenedor {
-    background-color: yellow;
+    margin: 10px auto;
     display: flex;
-    gap: 5px;
     justify-content: center;
-    width: 335px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 360px;
+    height: max-content;
+    font-size: 0;
 }
 
 .bloque {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: #fff;
-    border: 1px solid #000;
+    border: 0.5px solid #000;
 }
