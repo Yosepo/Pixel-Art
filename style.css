@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+#contenedor {
+    background-color: yellow;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 335px;
+}
+
+.bloque {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
