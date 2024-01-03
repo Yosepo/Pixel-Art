@@ -1,6 +1,6 @@
 let colorActual = "brown"
 
-for (let i = 0; i < 196; i++) {
+for (let i = 0; i < 256; i++) {
     let bloque = document.createElement("div")
     bloque.className = "bloque"
     document.getElementById("contenedor").appendChild(bloque)
